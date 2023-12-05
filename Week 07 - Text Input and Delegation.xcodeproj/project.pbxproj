@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DF417702AC63EF300D5A973 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF4176F2AC63EF300D5A973 /* AppDelegate.swift */; };
+		0DF417722AC63EF300D5A973 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF417712AC63EF300D5A973 /* SceneDelegate.swift */; };
+		0DF417742AC63EF300D5A973 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF417732AC63EF300D5A973 /* ViewController.swift */; };
+		0DF417772AC63EF300D5A973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF417752AC63EF300D5A973 /* Main.storyboard */; };
+		0DF417792AC63EF600D5A973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DF417782AC63EF600D5A973 /* Assets.xcassets */; };
+		0DF4177C2AC63EF600D5A973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DF4177A2AC63EF600D5A973 /* LaunchScreen.storyboard */; };
+		0DF417872AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF417862AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationTests.swift */; };
+		0DF417912AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF417902AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITests.swift */; };
+		0DF417932AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF417922AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITestsLaunchTests.swift */; };
+		0DF417A12AC6479A00D5A973 /* PatternChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DF417A02AC6479A00D5A973 /* PatternChecker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0DF417832AC63EF600D5A973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF417642AC63EF300D5A973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DF4176B2AC63EF300D5A973;
+			remoteInfo = "Week 07 - Text Input and Delegation";
+		};
+		0DF4178D2AC63EF700D5A973 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0DF417642AC63EF300D5A973 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0DF4176B2AC63EF300D5A973;
+			remoteInfo = "Week 07 - Text Input and Delegation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DF4176C2AC63EF300D5A973 /* Week 07 - Text Input and Delegation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Week 07 - Text Input and Delegation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF4176F2AC63EF300D5A973 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DF417712AC63EF300D5A973 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0DF417732AC63EF300D5A973 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0DF417762AC63EF300D5A973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DF417782AC63EF600D5A973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DF4177B2AC63EF600D5A973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DF4177D2AC63EF600D5A973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DF417822AC63EF600D5A973 /* Week 07 - Text Input and DelegationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 07 - Text Input and DelegationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF417862AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_07___Text_Input_and_DelegationTests.swift"; sourceTree = "<group>"; };
+		0DF4178C2AC63EF700D5A973 /* Week 07 - Text Input and DelegationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Week 07 - Text Input and DelegationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DF417902AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_07___Text_Input_and_DelegationUITests.swift"; sourceTree = "<group>"; };
+		0DF417922AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Week_07___Text_Input_and_DelegationUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		0DF417A02AC6479A00D5A973 /* PatternChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternChecker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DF417692AC63EF300D5A973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF4177F2AC63EF600D5A973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF417892AC63EF700D5A973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DF417632AC63EF300D5A973 = {
+			isa = PBXGroup;
+			children = (
+				0DF4176E2AC63EF300D5A973 /* Week 07 - Text Input and Delegation */,
+				0DF417852AC63EF600D5A973 /* Week 07 - Text Input and DelegationTests */,
+				0DF4178F2AC63EF700D5A973 /* Week 07 - Text Input and DelegationUITests */,
+				0DF4176D2AC63EF300D5A973 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DF4176D2AC63EF300D5A973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DF4176C2AC63EF300D5A973 /* Week 07 - Text Input and Delegation.app */,
+				0DF417822AC63EF600D5A973 /* Week 07 - Text Input and DelegationTests.xctest */,
+				0DF4178C2AC63EF700D5A973 /* Week 07 - Text Input and DelegationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DF4176E2AC63EF300D5A973 /* Week 07 - Text Input and Delegation */ = {
+			isa = PBXGroup;
+			children = (
+				0DF4179F2AC6477300D5A973 /* Models */,
+				0DF4176F2AC63EF300D5A973 /* AppDelegate.swift */,
+				0DF417712AC63EF300D5A973 /* SceneDelegate.swift */,
+				0DF417732AC63EF300D5A973 /* ViewController.swift */,
+				0DF417752AC63EF300D5A973 /* Main.storyboard */,
+				0DF417782AC63EF600D5A973 /* Assets.xcassets */,
+				0DF4177A2AC63EF600D5A973 /* LaunchScreen.storyboard */,
+				0DF4177D2AC63EF600D5A973 /* Info.plist */,
+			);
+			path = "Week 07 - Text Input and Delegation";
+			sourceTree = "<group>";
+		};
+		0DF417852AC63EF600D5A973 /* Week 07 - Text Input and DelegationTests */ = {
+			isa = PBXGroup;
+			children = (
+				0DF417862AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationTests.swift */,
+			);
+			path = "Week 07 - Text Input and DelegationTests";
+			sourceTree = "<group>";
+		};
+		0DF4178F2AC63EF700D5A973 /* Week 07 - Text Input and DelegationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0DF417902AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITests.swift */,
+				0DF417922AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITestsLaunchTests.swift */,
+			);
+			path = "Week 07 - Text Input and DelegationUITests";
+			sourceTree = "<group>";
+		};
+		0DF4179F2AC6477300D5A973 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0DF417A02AC6479A00D5A973 /* PatternChecker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DF4176B2AC63EF300D5A973 /* Week 07 - Text Input and Delegation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF417962AC63EF700D5A973 /* Build configuration list for PBXNativeTarget "Week 07 - Text Input and Delegation" */;
+			buildPhases = (
+				0DF417682AC63EF300D5A973 /* Sources */,
+				0DF417692AC63EF300D5A973 /* Frameworks */,
+				0DF4176A2AC63EF300D5A973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Week 07 - Text Input and Delegation";
+			productName = "Week 07 - Text Input and Delegation";
+			productReference = 0DF4176C2AC63EF300D5A973 /* Week 07 - Text Input and Delegation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0DF417812AC63EF600D5A973 /* Week 07 - Text Input and DelegationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF417992AC63EF700D5A973 /* Build configuration list for PBXNativeTarget "Week 07 - Text Input and DelegationTests" */;
+			buildPhases = (
+				0DF4177E2AC63EF600D5A973 /* Sources */,
+				0DF4177F2AC63EF600D5A973 /* Frameworks */,
+				0DF417802AC63EF600D5A973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF417842AC63EF600D5A973 /* PBXTargetDependency */,
+			);
+			name = "Week 07 - Text Input and DelegationTests";
+			productName = "Week 07 - Text Input and DelegationTests";
+			productReference = 0DF417822AC63EF600D5A973 /* Week 07 - Text Input and DelegationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0DF4178B2AC63EF700D5A973 /* Week 07 - Text Input and DelegationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DF4179C2AC63EF700D5A973 /* Build configuration list for PBXNativeTarget "Week 07 - Text Input and DelegationUITests" */;
+			buildPhases = (
+				0DF417882AC63EF700D5A973 /* Sources */,
+				0DF417892AC63EF700D5A973 /* Frameworks */,
+				0DF4178A2AC63EF700D5A973 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0DF4178E2AC63EF700D5A973 /* PBXTargetDependency */,
+			);
+			name = "Week 07 - Text Input and DelegationUITests";
+			productName = "Week 07 - Text Input and DelegationUITests";
+			productReference = 0DF4178C2AC63EF700D5A973 /* Week 07 - Text Input and DelegationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DF417642AC63EF300D5A973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					0DF4176B2AC63EF300D5A973 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					0DF417812AC63EF600D5A973 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0DF4176B2AC63EF300D5A973;
+					};
+					0DF4178B2AC63EF700D5A973 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 0DF4176B2AC63EF300D5A973;
+					};
+				};
+			};
+			buildConfigurationList = 0DF417672AC63EF300D5A973 /* Build configuration list for PBXProject "Week 07 - Text Input and Delegation" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DF417632AC63EF300D5A973;
+			productRefGroup = 0DF4176D2AC63EF300D5A973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DF4176B2AC63EF300D5A973 /* Week 07 - Text Input and Delegation */,
+				0DF417812AC63EF600D5A973 /* Week 07 - Text Input and DelegationTests */,
+				0DF4178B2AC63EF700D5A973 /* Week 07 - Text Input and DelegationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DF4176A2AC63EF300D5A973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF4177C2AC63EF600D5A973 /* LaunchScreen.storyboard in Resources */,
+				0DF417792AC63EF600D5A973 /* Assets.xcassets in Resources */,
+				0DF417772AC63EF300D5A973 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF417802AC63EF600D5A973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF4178A2AC63EF700D5A973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DF417682AC63EF300D5A973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF417742AC63EF300D5A973 /* ViewController.swift in Sources */,
+				0DF417702AC63EF300D5A973 /* AppDelegate.swift in Sources */,
+				0DF417A12AC6479A00D5A973 /* PatternChecker.swift in Sources */,
+				0DF417722AC63EF300D5A973 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF4177E2AC63EF600D5A973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF417872AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DF417882AC63EF700D5A973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DF417912AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITests.swift in Sources */,
+				0DF417932AC63EF700D5A973 /* Week_07___Text_Input_and_DelegationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0DF417842AC63EF600D5A973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DF4176B2AC63EF300D5A973 /* Week 07 - Text Input and Delegation */;
+			targetProxy = 0DF417832AC63EF600D5A973 /* PBXContainerItemProxy */;
+		};
+		0DF4178E2AC63EF700D5A973 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0DF4176B2AC63EF300D5A973 /* Week 07 - Text Input and Delegation */;
+			targetProxy = 0DF4178D2AC63EF700D5A973 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0DF417752AC63EF300D5A973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF417762AC63EF300D5A973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DF4177A2AC63EF600D5A973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DF4177B2AC63EF600D5A973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DF417942AC63EF700D5A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0DF417952AC63EF700D5A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DF417972AC63EF700D5A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week 07 - Text Input and Delegation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Indrajeet.Week-07---Text-Input-and-Delegation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DF417982AC63EF700D5A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Week 07 - Text Input and Delegation/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Indrajeet.Week-07---Text-Input-and-Delegation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0DF4179A2AC63EF700D5A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Indrajeet.Week-07---Text-Input-and-DelegationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 07 - Text Input and Delegation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week 07 - Text Input and Delegation";
+			};
+			name = Debug;
+		};
+		0DF4179B2AC63EF700D5A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Indrajeet.Week-07---Text-Input-and-DelegationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Week 07 - Text Input and Delegation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Week 07 - Text Input and Delegation";
+			};
+			name = Release;
+		};
+		0DF4179D2AC63EF700D5A973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Indrajeet.Week-07---Text-Input-and-DelegationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week 07 - Text Input and Delegation";
+			};
+			name = Debug;
+		};
+		0DF4179E2AC63EF700D5A973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Indrajeet.Week-07---Text-Input-and-DelegationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Week 07 - Text Input and Delegation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DF417672AC63EF300D5A973 /* Build configuration list for PBXProject "Week 07 - Text Input and Delegation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF417942AC63EF700D5A973 /* Debug */,
+				0DF417952AC63EF700D5A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF417962AC63EF700D5A973 /* Build configuration list for PBXNativeTarget "Week 07 - Text Input and Delegation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF417972AC63EF700D5A973 /* Debug */,
+				0DF417982AC63EF700D5A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF417992AC63EF700D5A973 /* Build configuration list for PBXNativeTarget "Week 07 - Text Input and DelegationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF4179A2AC63EF700D5A973 /* Debug */,
+				0DF4179B2AC63EF700D5A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DF4179C2AC63EF700D5A973 /* Build configuration list for PBXNativeTarget "Week 07 - Text Input and DelegationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DF4179D2AC63EF700D5A973 /* Debug */,
+				0DF4179E2AC63EF700D5A973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DF417642AC63EF300D5A973 /* Project object */;
+}
